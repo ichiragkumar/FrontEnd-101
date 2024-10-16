@@ -2,6 +2,9 @@ import Header  from "./components/Header"
 import Footer from "./components/Footer"
 import MainContent from "./components/Maincontent"
 import WelcomeMessage from "./components/WelcomeMessage"
+import Expression from "./components/Expression"
+import Greeting from "./components/Greeting"
+import ProductInfo from "./components/ProductInfo"
 const App = () => {
   return (
     <div>
@@ -10,6 +13,9 @@ const App = () => {
       <Footer/>
       <MainContent/>
       <WelcomeMessage/>
+      <Expression/>
+      <Greeting/>
+      <ProductInfo/>
     </div>
   )
 }
