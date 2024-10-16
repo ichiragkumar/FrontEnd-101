@@ -1,10 +1,15 @@
-
-import { Greet } from './components/Greet.jsx'
+import Header  from "./components/Header"
+import Footer from "./components/Footer"
+import MainContent from "./components/Maincontent"
+import WelcomeMessage from "./components/WelcomeMessage"
 const App = () => {
   return (
     <div>
       <h1>Hello World</h1>
-      <Greet/>
+      <Header/>
+      <Footer/>
+      <MainContent/>
+      <WelcomeMessage/>
     </div>
   )
 }
